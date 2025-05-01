@@ -3,7 +3,7 @@
 
 // int main()
 // {
-//     printf("Compiler Design);
+//     printf("Compiler Design
 //     return 0;
 // }
 
@@ -15,7 +15,7 @@
 // int main(){
 // int 1age = 40;
 
-//     printf("Age:%d\n",age);
+//     printf("Age:",&age);
 //     return 0;
 // }
 
@@ -38,13 +38,20 @@
 // 2 semantic error
 
 // #include <stdio.h>
+
+//int myFunc(){
+// int num1,num2;
+// printf("Enter num1 : ");
+// scanf("%d",&num1);
+// printf("Enter num2 : ");
+// scanf("%d",&num2);
+// int result = num1 + num2
+// return result;
+}
 // int main()
 // {
-//     int age = 40;
-//     {
-//         printf("Result :%d\n",result);
-//     }
-    
+//  my Func(18,12);
+//  printf("The result is:%d\n",result);    
 //     return 0;
 // }
 
@@ -55,8 +62,7 @@
 
 // int main() {
 //     for (int i = 1; i <= 10; i++) {
-//         printf("%d\n" i);
-    
+//         printf("%d\n" i)
 //     return 0;
 // }
 
@@ -64,8 +70,12 @@
 //2  syntax error
 #include <stdio.h>
 
-int main()
-{
-    printf("Compiler Design)
-    return 0;
+int printNumbers(int n)
+for(int i = 0;i <n; i++){
+printf("Number : %d\n",i)
 }
+
+int main(){
+   printNumbers(10);
+    return 0;
+
