@@ -25,3 +25,6 @@ int main() {
 }
 
 
+#flex file_name.l
+#gcc lex.yy.c
+#.\a.exe
